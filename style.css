@@ -1,10 +1,138 @@
-img{
-	transform:rotate(90deg);
-	width:300px;
+.colour-changer{
+	
+	width: 100%;
 	height:300px;
+
+}
+#small{
+	height:300px;
+	width:300px;
 	border-radius: 100%;
+	transform:rotate(90deg);
 }
-body{
-	margin:10px auto;
+*,body,html{
+	margin:0px;
+	padding:0;
+	font-family:sans-serif;
+
+}
+.logo a{
+	float:left;
 	text-align:center;
-}
+	padding:14px 16px;
+	text-decoration:none;
+	color:black;
+
+	}
+	.navbar{
+		width:100%;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+
+	}
+	li{
+		float:right;
+		list-style-type: none;
+
+	}
+	li a{
+		display:block;
+		color:rgba(0, 0, 0, 0.69);
+		text-align:center;
+		padding:14px 16px;
+		text-decoration: none;
+	}
+	.grow{
+		transition: all .2s ease-in-out;
+
+	}
+	.grow:hover{
+		transform: scale(1.3);
+	}
+	/*end of navbar */
+
+
+	.head{
+		width:100%;
+		height: 600px;
+		background-color:black;
+		text-align:center;
+		color:white;
+	}
+	.head h1{
+		padding-top:20px;
+		padding-bottom:40px;
+	}
+
+	.head a{
+		text-decoration: none;
+		color:white;
+	}
+	.head h4{
+		padding:15px;
+		width:150px;
+		height: 8px;
+		margin:10px auto;
+		background-color:gray;
+		border-radius: 10px;
+	}
+
+	/*end of head */
+
+	.portfolio{
+		width:100%;
+		height:400px;
+		background-color: gray;
+		text-align:center;
+		color:white;
+
+	}
+	.portfolio h2{
+		padding:20px;
+		font-size:30px;
+	}
+	.site{
+		width:30%;
+		display:inline-block;
+		padding:15px;
+		text-decoration: none;
+		color:white;
+
+
+
+
+
+
+	}
+	.site img{
+		width:100%;
+		border-radius: 15px;
+
+
+	}
+	.site h4{
+		padding:10px;
+	}
+
+	html{
+		background-image: url("IMG_1178.JPG");
+		background-size: cover;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
